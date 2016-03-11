@@ -1,0 +1,40 @@
+{
+  "name": "Salesforce as Identity Provider - Service Provider Test App",
+  "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
+  "repository": "https://github.com/enreeco/sf-idp-sso-app",
+  "logo": "https://avatars3.githubusercontent.com/u/2393696?v=3&s=460",
+  "keywords": ["salesforce", "sso", "saml", "identity provider"],
+  "website": "https://enree.co/",
+  "env": {
+        "SAML_ENTRYPOINT": {
+          "description": "Salesforce IdP SAML entrypoint",
+          "required" : true,
+          "value":"https://test.salesforce.com/idp/endpoint/HttpRedirect"
+        },
+        "SAML_ISSUER": {
+          "description": "Local app issuer",
+          "required" : true,
+          "value":"sp-saml"
+        },
+        "SAML_CERT": {
+          "description": "Salesforce SAML certificate",
+          "required" : true,
+          "value":""
+        },
+        "SAML_IDENTIFIER_FORMAT": {
+          "description": "SAML nameId format",
+          "required" : true,
+          "value":"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+        },
+        "APP_NAME": {
+          "description": "Application name (on page's title and header)",
+          "required" : true,
+          "value":"My Service Provider"
+        },
+        "SF_HOME": {
+          "description": "Home Salesforce url",
+          "required" : true,
+          "value":"https://test.salesforce.com/"
+        }
+    }
+}

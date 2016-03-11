@@ -1,0 +1,19 @@
+<% include header.html %>
+
+<div class="page-header">
+	<h3>This is a test for Salesforce as Identity Provider <small>using SAML 2.0</small></h3>
+</div>
+
+<% if(user != null) {%>
+	<blockquote>
+		<p class="text-center">
+			This is the secret home page! <br/><br/>
+			<a class="btn btn-lg btn-info" href="<%=backUrl%>" role="button">Back to Salesforce <span class="glyphicon glyphicon-send" /></a>
+		</p>
+	</blockquote>
+<% }else{ %>
+	<p class="text-center">
+		Login to Salesforce to access the secret home page!</p>
+	</p>
+<% } %>
+<% include footer.html %>

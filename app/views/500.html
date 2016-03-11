@@ -1,0 +1,6 @@
+  <h1> Error: <%=error.message%></h1>
+  <% if(settings['verbose errors']){ %>
+    <pre>error.stack</pre>
+  <% } else { %>
+    An error ocurred!
+  <%}%>
