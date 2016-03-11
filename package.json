@@ -1,5 +1,5 @@
 {
-  "name": "Salesforce as Identity Provider - Service Provider Test App",
+  "name": "Salesforce as IdP Server App",
   "version": "0.0.1",
   "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
   "author": {
