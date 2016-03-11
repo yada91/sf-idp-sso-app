@@ -83,7 +83,7 @@ Copy:
 * Node *md:SingleSignOnService*: this is the URL used as an entry point for the authentication on the Identity Provider
 * Node *md:NameIDFormat*: this is the format of the incoming user ID
 
-Using the *SAML Service Provider Server* (http://github.com/enreeco/sf-saml-sso-server) service configure a new instance of the server setting the following enviromental variables:
+Using the *SAML Service Provider Server* (https://github.com/enreeco/sf-idp-sso-app) service configure a new instance of the server setting the following enviromental variables:
 
 * *SAML_ISSUER*: leave 'passport-saml' (or choose your own)
 * *SAML_ENTRYPOINT*: set with the valule in the *md:SingleSignOnService* node
