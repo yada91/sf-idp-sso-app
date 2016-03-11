@@ -53,9 +53,6 @@ E.g.
 	                System.debug('Exception:' + e.getMessage());
 	            }
 	        }
-	        /*
-			User u = [select id, HasAchievedQuota__c from User where id =: userId].get(0);
-			return u.HasAchievedQuota__c;*/
 	        return true;
 	    }
 	    
