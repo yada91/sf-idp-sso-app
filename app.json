@@ -1,5 +1,5 @@
 {
-  "name": "Salesforce as Identity Provider - Service Provider Test App",
+  "name": "Salesforce as IdP Server App",
   "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
   "repository": "https://github.com/enreeco/sf-idp-sso-app",
   "logo": "https://avatars3.githubusercontent.com/u/2393696?v=3&s=460",
