@@ -1,4 +1,4 @@
-/public/bower_components
+/bower_components
 lib-cov
 *.seed
 *.log
