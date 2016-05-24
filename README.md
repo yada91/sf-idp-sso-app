@@ -2,6 +2,8 @@
 
 Author: [Enrico Murru](http://enree.co)
 
+Blog post: [[Salesforce / Heroku] Salesforce as Identity Provider and Heroku as Service Provider](http://blog.enree.co/2016/04/salesforce-heroku-salesforce-as.html)
+
 The following app can be deployed on Heroku to test SSO using SAML 2.0 with Salesforce as Identity Provider.
 
 
